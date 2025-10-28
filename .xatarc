@@ -1,0 +1,6 @@
+{
+  "databaseURL": "https://jonas12000000-s-workspace-o1t7c2.us-east-1.xata.sh/db/educast",
+  "codegen": {
+    "output": "src/xata.ts"
+  }
+}
