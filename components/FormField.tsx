@@ -20,7 +20,7 @@ const FormField = ({
           placeholder={placeholder}
         />
       ) : as === "select" ? (
-        <select id={id} name={id} value={value} onChange={onChange}>
+        <select id={id} name={id} value={value || "public"} onChange={onChange}>
           {options.map(({ label, value }) => (
             <option key={label} value={value}>
               {label}
